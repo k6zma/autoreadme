@@ -7,6 +7,22 @@
 <img src="https://img.shields.io/badge/VSC-black?style=for-the-badge&logo=Visual Studio Code&logoColor=007ACC"/>
 </div>
 
+<p></p>
+
+<div align="center">
+
+[![Status](https://img.shields.io/badge/status-active-success.svg)]()
+![GitHub Issues](https://img.shields.io/github/issues/k6zma/autoreadme.svg)
+![GitHub Pull Requests](https://img.shields.io/github/issues-pr/k6zma/autoreadme.svg)
+![Stars](https://img.shields.io/github/stars/k6zma/autoreadme.svg)
+
+</div>
+
+<div align="center">
+<img src="img/logo.png" width=80%>
+</div>
+
+
 ## Key Features
 
 - Automatic detection of programming languages ​​and frameworks used.
@@ -25,3 +41,5 @@
 1. Press the keyboard shortcut `Cmd+Shift+P` or `Win+Shift+P`
 2. In the context menu, write and select `Generate README`.
 3. A `README.md` file with the corresponding icons will be created in your project.
+
+[def]: mg/logo.pn
