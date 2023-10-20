@@ -3,6 +3,10 @@
   "displayName": "AutoREADME",
   "description": "Automatically generates a README.md file with technology stack icons",
   "version": "0.0.3",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/k6zma/autoreadme.git"
+  },
   "icon": "img/logo.png",
   "publisher": "k6zma",
   "engines": {
