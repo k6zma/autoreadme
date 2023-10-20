@@ -2,7 +2,7 @@
   "name": "autoreadme",
   "displayName": "AutoREADME",
   "description": "Automatically generates a README.md file with technology stack icons",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "icon": "img/logo.png",
   "publisher": "k6zma",
   "engines": {
