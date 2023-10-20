@@ -36,14 +36,16 @@ export function activate(context: vscode.ExtensionContext) {
         checkFilesInDirectory(folderPath);
 
         const readmePath = path.join(folderPath, 'README.md');
-        const writeStream = fs.createWriteStream(readmePath);
+        const writeStream = fs.existsSync(readmePath) 
+            ? fs.createWriteStream(readmePath, { flags: 'a' }) 
+            : fs.createWriteStream(readmePath);
 
         usedBadges.forEach(badge => {
             writeStream.write(badge + '\n');
         });
 
         writeStream.end(() => {
-            vscode.window.showInformationMessage('README.md generated!');
+            vscode.window.showInformationMessage('README.md updated!');
         });
     });
 
