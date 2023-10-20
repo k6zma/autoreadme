@@ -31,14 +31,14 @@
 ## Installation
 
 1. Open **Visual Studio Code**.
-2. Go to **Extensions** or use the keyboard shortcut `Ctrl+Shift+X`.
+2. Go to **Extensions** or use the keyboard shortcut `Cmd+Shift+X` or `Ctrl+Shift+X`.
 3. Search for `AutoREADME`.
 4. Install the extension.
 5. Restart **Visual Studio Code Code** and your project.
 
 ## Usage
 
-1. Press the keyboard shortcut `Cmd+Shift+P` or `Win+Shift+P`
+1. Press the keyboard shortcut `Cmd+Shift+P` or `Ctrl+Shift+P`
 2. In the context menu, write and select `Generate README`.
 3. A `README.md` file with the corresponding icons will be created in your project.
 
